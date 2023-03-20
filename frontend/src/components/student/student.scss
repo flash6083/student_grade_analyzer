@@ -1,0 +1,32 @@
+.student-section{
+    width: 100vw;
+    height: max-content;
+    padding: 2vw 10vw;
+    font-family: 'Poppins', sans-serif;
+
+    h1{
+        font-size: 3vw;
+        font-weight: 700;
+        letter-spacing: 0.05em;
+        margin-bottom: 2vw;
+        color: black;
+    }
+
+    .student-nr{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 1.5vw;
+        h3{
+            font-size: 2vw;
+            font-weight: 500;
+        }
+    }
+
+    .chart{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+}

@@ -1,0 +1,27 @@
+.dashboard{
+    width: 100vw;
+    height: max-content;
+    padding: 2vw 10vw;
+
+    .dash-content{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 2vw;
+        .dash-text{
+            h1{
+                font-size: 4vw;
+                font-weight: 700;
+                letter-spacing: 0.05em;
+                margin-bottom: 1vw;
+                color: black;
+            }
+            p{
+                font-family: 'DM Sans', sans-serif;
+                font-size: 1.4vw;
+                font-weight: 400;
+                letter-spacing: 0.01em;
+            }
+        }
+    }
+}

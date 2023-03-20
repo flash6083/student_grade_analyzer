@@ -1,0 +1,39 @@
+.add-student-section{
+    width: 100vw;
+    height: max-content;
+    padding: 2vw 10vw;
+    font-family: 'Poppins', sans-serif;
+
+    h1{
+        font-size: 3vw;
+        font-weight: 700;
+        margin-bottom: 2vw;
+        color: black;
+    }
+
+    .student-inputs{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        gap: 2vw;
+        margin-bottom: 2vw;
+    }
+
+    .sem-input{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+        gap: 2vw;
+        margin-bottom: 5vw;
+    }
+
+    .buttons{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        button{
+            margin-right: 2rem;
+        }
+    }
+}

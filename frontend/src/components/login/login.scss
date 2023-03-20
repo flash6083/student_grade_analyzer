@@ -1,0 +1,43 @@
+.loginSection{
+    width: 100vw;
+    height: 88.5vh;
+
+    .login-content{
+        width: 100%;
+        height: 88.5vh;
+        display: flex;
+        padding: 0 10vw;
+        // align-items: center;
+
+        .login-text{
+            margin-top: 2vw;
+            flex: 60%;
+            h1{
+                font-size: 3vw;
+                font-weight: 700;
+                margin-bottom: 0.5vw;
+            }
+            p{
+                font-size: 0.9vw;
+                font-weight: 400;
+                display: inline-block;
+                margin-bottom: 1vw;
+            }
+        }
+
+        .login-img{
+            flex: 40%;
+            width: 35vw;
+            height: 35vw;
+            overflow: hidden;
+            margin-left: 20vw;
+            margin-top: 2vw;
+            img{
+                width: 100%;
+                height: 100%;
+                display: block;
+                object-fit: cover;
+            }
+        }
+    }
+}
